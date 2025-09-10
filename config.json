@@ -1,0 +1,14 @@
+{
+    "PATH": "CIAS_D50_500lux.txt",
+    "IMG_WIDTH": 1920,
+    "IMG_HEIGHT": 1080,
+    "BIT_SIZE": 1024,
+    "BLC_R": 64,
+    "BLC_Gr": 64,
+    "BLC_Gb": 64,
+    "BLC_B": 64,
+    "_comment": "BAYER_ID = [RGGB:0, BGGR:1, GBRG:2, GRBG:3]",
+    "BAYER_ID": 1,
+    "CT": 5000,
+    "GMA": 2.2
+}
