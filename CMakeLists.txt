@@ -5,6 +5,10 @@ project(CameraISP CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+if(WIN32)
+	set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT CameraISP)
+endif()
+
 # Set path to OpenCV .cmake first, then the cmake can find OpenCV
 find_package(OpenCV REQUIRED)
 
